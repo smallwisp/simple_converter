@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  /* height: 200px; */
+  width: 1000px;
+  padding: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.converter {
+  display: flex;
+  /* display: inline-block; */
+}
+
+button {
+  display: inline-block;
+}

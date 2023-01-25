@@ -4,10 +4,28 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Converter</title>
 </head>
 <body>
-  
-  
+  <div class="container">
+    <div class="converter usd-rub">
+      <input type="text" class="converter-money usd">
+      <div>Доллар США(USD)</div>
+      <input type="text" class="converter-money rub" disabled="">
+      <div>Российский рубль(RUB)</div>
+    </div>
+    <button class="converter-run">Конвертировать</button>
+    <div class="converter rub-usd">
+      <input type="text" class="converter-money reverse-rub">
+      <div>Российский рубль(RUB)</div>
+      <input type="text" class="converter-money reverse-usd" disabled="">
+      <div>Доллар США(USD)</div>
+    </div>
+    <button class="converter-run">Конвертировать</button>
+  </div>
+
+  <script src="script.js"></script>
+
 </body>
 </html>
