@@ -2,20 +2,40 @@
   box-sizing: border-box;
 }
 
+body {
+  background-image: url(./5.jpg);
+}
+
 .container {
   margin: 0 auto;
-  /* height: 200px; */
-  width: 1000px;
+  width: 800px;
   padding: 0 auto;
-  display: flex;
-  justify-content: space-between;
+  background-color: rgb(148, 224, 141);
 }
 
 .converter {
   display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
   /* display: inline-block; */
 }
 
 button {
   display: inline-block;
+  margin-top: 20px;
+  padding: 5px 8px;
+}
+
+.choose-currency {
+  display: flex;
+  justify-content: space-around;
+  padding: 8px 10px;
+}
+
+.choose-currency-text {
+  font-size: 20px;
+}
+
+#select {
+  font-size: 20px;
 }

@@ -9,9 +9,16 @@
 </head>
 <body>
   <div class="container">
+    <div class="choose-currency">
+      <div class="choose-currency-text">Выбирете валюту</div>
+      <select name="currency" id="select">
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+      </select>
+    </div>
     <div class="converter usd-rub">
       <input type="text" class="converter-money usd">
-      <div>Доллар США(USD)</div>
+      <div class="money">Доллар США(USD)</div>
       <input type="text" class="converter-money rub" disabled="">
       <div>Российский рубль(RUB)</div>
     </div>
@@ -20,7 +27,7 @@
       <input type="text" class="converter-money reverse-rub">
       <div>Российский рубль(RUB)</div>
       <input type="text" class="converter-money reverse-usd" disabled="">
-      <div>Доллар США(USD)</div>
+      <div class="money">Доллар США(USD)</div>
     </div>
     <button class="converter-run">Конвертировать</button>
   </div>
